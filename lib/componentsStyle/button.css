@@ -1,0 +1,71 @@
+.fe-button {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid var(--border-base-color);
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  transition: 0.1s;
+  font-weight: 500;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-radius: 4px;
+  color: #fff;
+}
+.fe-button--default {
+  color: #606266;
+}
+.fe-button--primary {
+  background: var(--color-primary-10);
+  border-color: var(--color-primary-10);
+}
+.fe-button--primary.is-plain {
+  background-color: var(--color-primary-2);
+  border-color: var(--color-primary-5);
+  color: var(--color-primary);
+}
+.fe-button--success {
+  background: var(--color-success);
+  border-color: var(--color-success);
+}
+.fe-button--success.is-plain {
+  background-color: var(--color-success-2);
+  border-color: var(--color-success-5);
+  color: var(--color-success);
+}
+.fe-button--error {
+  background: var(--color-error);
+  border-color: var(--color-error);
+}
+.fe-button--error.is-plain {
+  background-color: var(--color-error-2);
+  border-color: var(--color-error-5);
+  color: var(--color-error);
+}
+.fe-button--warning {
+  background: var(--color-warning);
+  border-color: var(--color-warning);
+}
+.fe-button--warning.is-plain {
+  background-color: var(--color-warning-2);
+  border-color: var(--color-warning-5);
+  color: var(--color-warning);
+}
+.fe-button--small {
+  padding: 8px 16px;
+  font-size: 12px;
+}
+.fe-button--mini {
+  padding: 6px 14px;
+  font-size: 12px;
+}
+.fe-button--disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
