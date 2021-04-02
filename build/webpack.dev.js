@@ -2,7 +2,7 @@
  * @Author: yushijun
  * @Date: 2021-04-01 17:14:08
  * @LastEditors: yushijun
- * @LastEditTime: 2021-04-02 13:51:53
+ * @LastEditTime: 2021-04-02 14:45:29
  */
 const path = require('path')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
@@ -15,7 +15,7 @@ module.exports = {
     path: path.join(__dirname, '../lib'),
     filename: '[name].js',
     libraryExport: 'default',
-    library: 'IDSSUI',
+    library: 'YSJUI',
     libraryTarget: 'umd'
   },
   resolve: {

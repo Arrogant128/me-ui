@@ -2,7 +2,7 @@
  * @Author: yushijun
  * @Date: 2021-04-01 17:17:36
  * @LastEditors: yushijun
- * @LastEditTime: 2021-04-01 17:17:50
+ * @LastEditTime: 2021-04-02 14:46:30
 -->
 <template>
   <button
@@ -29,7 +29,7 @@
 </template>
 <script>
 export default {
-  name: 'IButton',
+  name: 'YButton',
   inject: {
     feForm: {
       default: ''
